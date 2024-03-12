@@ -163,6 +163,9 @@ const group = (items,fn) => {
   },{})
 }
 console.log(group(cardStack, 'cardSuit'));
+console.log(group(cardStack, 'color'));
+console.log(group(cardStack, 'value'));
+
 // =========================
 let coursesArray = [
     {
