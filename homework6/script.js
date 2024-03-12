@@ -237,5 +237,9 @@ let coursesArray = [
     }
 ];
 //     взяти з arrays.js (який лежить в папці 2023 plan) масив coursesArray
+
 // --написати пошук всіх об'єктів, в який в modules є sass
+console.log(coursesArray.filter(value => value.modules.includes('sass')))
 // --написати пошук всіх об'єктів, в який в modules є docker
+console.log(coursesArray.filter(value => value.modules.includes('docker')))
+
