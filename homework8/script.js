@@ -250,3 +250,4 @@ for (const popelushka of popelushkas) {
         console.log(popelushka);
     }
 }
+console.log(popelushkas.find(value => value.legSize == prince.foundShoeSize));
